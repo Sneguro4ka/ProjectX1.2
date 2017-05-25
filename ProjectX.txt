@@ -1,0 +1,58 @@
+Alcohol Category: 
+				- Id
+				- Name
+
+Alcohol Product :
+				- productID
+				- Category
+				- name
+				- price
+				- alcohol %
+				- info
+				- inStock
+				- origin
+				- pic
+
+Country : 
+				- CountryID
+				- Name
+Login : 
+				- userName
+				- password
+				- privilage				
+Sales : 
+				- productID
+				- price
+BuyingHistory:
+				- productID
+				- Date
+				- user
+Customers: 
+				- userName
+				- name
+				- lastName
+				- email
+				- phoneNumber
+Cigars :
+				- productID
+				- name
+				- price
+				- inStock
+				- strength
+				- info
+				- origin
+				- pic				
+Accessories : 
+				- productID
+				- type ( for what? )
+				- price
+				- info
+				- pic
+				- name
+Bundles : 
+				- bundleID
+				- bundleName
+				- price
+BundleInfo : 
+				- bundleID   (both are keys)
+				- productID
